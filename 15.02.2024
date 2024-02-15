@@ -1,0 +1,14 @@
+#include <iostream>     // majuscula in minuscula: ch=ch+32
+using namespace std;    //minuscula in majuscula: ch=ch-32
+int main() 
+{
+    string txt="sCoalA";
+    int i, nr_maj=0, nr_min=0;
+    for(i=0; i<=txt.length()-1; i++){
+    if(txt[i]>='a'&& txt[i]<='z'){
+        nr_min++;
+    }
+    else if(txt[i]>='A'&& txt[i]<='Z'){
+        nr_maj++;}}
+    cout<<"Numarul majusculelor: "<<nr_maj<<endl<<"Numarul minusculelor: "<<nr_min;
+}
