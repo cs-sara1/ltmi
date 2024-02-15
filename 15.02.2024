@@ -1,5 +1,5 @@
-#include <iostream>     // majuscula in minuscula: ch=ch+32
-using namespace std;    //minuscula in majuscula: ch=ch-32
+#include <iostream>      // majuscula in minuscula: ch=ch+32
+using namespace std;     //minuscula in majuscula: ch=ch-32
 int main() 
 {
     string txt="sCoalA";
